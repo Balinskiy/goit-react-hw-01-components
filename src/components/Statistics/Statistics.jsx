@@ -1,10 +1,10 @@
-import { StatisticTitle, StatisticsList } from './Statistics.styled';
+import { StatisticTitle, StatisticsList, Section } from './Statistics.styled';
 import StatisticItem from 'components/StatisticItem/StatisticItem';
 import PropTypes from 'prop-types';
 
 function Statistics({ title, stats }) {
   return (
-    <>
+    <Section>
       {title && <StatisticTitle>{title}</StatisticTitle>}
 
       <StatisticsList>
@@ -13,7 +13,7 @@ function Statistics({ title, stats }) {
             <StatisticItem key={id} label={label} percentage={percentage} />
           ))}
       </StatisticsList>
-    </>
+    </Section>
   );
 }
 

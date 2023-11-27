@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import 'styles/Profile.css'; // Import the CSS file
+import 'styles/Profile.css';
 
 export const Profile = ({ username, tag, location, avatar, stats }) => {
   return (
