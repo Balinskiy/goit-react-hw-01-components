@@ -1,4 +1,4 @@
-import 'styles/Statistic.css';
+import './StatisticItem.css';
 
 function StatisticItem({ label, percentage }) {
   return (
