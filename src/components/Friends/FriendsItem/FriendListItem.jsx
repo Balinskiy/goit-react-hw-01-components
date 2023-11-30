@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { FriendItem, Status, Image, Name } from './FriendListItem.styled';
+import {
+  FriendItem,
+  Status,
+  Image,
+  Name,
+} from '../FriendList/FriendListItem.styled';
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (

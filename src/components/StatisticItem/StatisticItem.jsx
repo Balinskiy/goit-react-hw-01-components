@@ -1,11 +1,11 @@
-import './StatisticItem.css';
+import { Label, Listyle, Percentage } from './StatisticItem.styled';
 
 function StatisticItem({ label, percentage }) {
   return (
-    <li className="item">
-      <span className="label">{label}</span>
-      <span className="percentage">{percentage}%</span>
-    </li>
+    <Listyle className="item">
+      <Label className="label">{label}</Label>
+      <Percentage className="percentage">{percentage}%</Percentage>
+    </Listyle>
   );
 }
 
